@@ -1,0 +1,8 @@
+
+Warning: include(cake/bootstrap.php) [function.include]: failed to open stream: No such file or directory in /home/inscript/public_html/app/webroot/index.php on line 76
+
+Warning: include(cake/bootstrap.php) [function.include]: failed to open stream: No such file or directory in /home/inscript/public_html/app/webroot/index.php on line 76
+
+Warning: include() [function.include]: Failed opening 'cake/bootstrap.php' for inclusion (include_path='/home/inscript/public_html/vendors/cakephp:/home/inscript/public_html/app/:.:/usr/lib/php:/usr/local/lib/php') in /home/inscript/public_html/app/webroot/index.php on line 76
+
+Fatal error: CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/inscript/public_html/app/webroot/index.php on line 77
